@@ -3,7 +3,7 @@
 - name: Adding User with Specific uid
   user:
     name: codein
-    comment: Nishant Parhi ;)
+    comment: Hello Codein
     shell: /bin/bash
     uid: 1040
     append: yes

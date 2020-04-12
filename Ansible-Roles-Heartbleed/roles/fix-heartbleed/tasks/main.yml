@@ -25,4 +25,4 @@
 
   - name: "If above goes well"
     debug:
-      msg: "You are not Valnurable with HeartBleed"
+      msg: "You are not Vulnerable with HeartBleed"

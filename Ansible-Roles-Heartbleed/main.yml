@@ -1,0 +1,8 @@
+---
+- name: Check Valnuerability
+  hosts: localhost
+  become: true
+  gather_facts: false
+  tasks:
+    - import_role:
+        name: fix-heartbleed
